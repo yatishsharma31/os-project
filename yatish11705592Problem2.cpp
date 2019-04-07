@@ -1,10 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
+#include<process.h>
 int main()
 {
 	int queue[100],y[100],head,seek=0,n,i,j,temp=0;
-	printf("    ****** SHORTEST SEEK TIME FIRST Disk Scheduling Algorithm ******\n");
+	system("color 5b");
+	printf("    ****** SHORTEST SEEK TIME FIRST Disk Scheduling Algorithm ******\n\n");
 	printf("Enter the size of Queue of cylinders:\t");
 	scanf("%d",&n);
 	printf("Enter the positions of cylinders: ");
